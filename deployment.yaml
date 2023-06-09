@@ -8,7 +8,7 @@ deployments:
   work_pool:
     name: zoompool
 - name: taxi_hw
-  entrypoint: hw/orchestrate.py:main_flow
+  entrypoint: hw/orchestrate.py:main_flow_hw
   work_pool:
     name: zoompool
   schedule:
