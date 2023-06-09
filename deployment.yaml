@@ -7,3 +7,9 @@ deployments:
   entrypoint: 3.5/orchestrate_s3.py:main_flow_s3
   work_pool:
     name: zoompool
+- name: taxi_hw
+  entrypoint: hw/orchestrate.py:main_flow
+  work_pool:
+    name: zoompool
+  schedule:
+    cron: "0 9 3 * *"
