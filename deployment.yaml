@@ -11,5 +11,3 @@ deployments:
   entrypoint: hw/orchestrate.py:main_flow_hw
   work_pool:
     name: zoompool
-  schedule:
-    cron: "0 9 3 * *"
